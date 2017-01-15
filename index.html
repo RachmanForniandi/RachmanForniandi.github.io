@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Workshop Bootstrap</title>
+	<link rel="stylesheet" type="text/css" href="../finalproject/bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../finalproject/assets/css/style.css">
+    <script src="../finalproject/bootstrap-3.3.7-dist/js/jquery-3.1.1.min.js"></script>
+	<script scr="../finalproject/bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+
+</head>
+<body>
+
+<nav class="navbar navbar-default">
+	  <div class="container">
+	    <!-- Brand and toggle get grouped for better mobile display -->
+			<div class="row">
+				<div class="col-md-8 col-sm-6 col-xs-12" id="nav-col">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand" href="#"><img src="./assets/img/logo.png"></a>
+					</div>
+					<form class="navbar-form navbar-left">
+						<div class="input-group input-group-lg">
+						<input id="searchbox" type="text" class="form-control" placeholder="Search for...">
+						<span class="input-group-btn">
+						<button class="btn btn-default" type="button">Search</button>
+						</span>
+						</div>
+						<!-- <div class="form-group">
+						<input type="text" class="form-control" placeholder="Search" style="width: 100%;display: block;">
+						<button type="submit" class="btn btn-default">Submit</button>
+						</div> -->
+					</form>
+				</div>
+				<div class="col-md-4 col-sm-6 col-xs-12" id="nav-col">
+					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+									<ul class="nav navbar-nav navbar-right">
+										<li><a href="#">Daftar</a></li>
+										<li><a href="#">Masuk</a></li>
+									</ul>
+					</div><!-- /.navbar-collapse -->
+				</div>
+			</div>
+
+	    <!-- Collect the nav links, forms, and other content for toggling -->
+
+	  </div><!-- /.container-->
+	</nav>
+    
+	<!-- Caroussel -->
+	<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+	  <!-- Indicators -->
+	  <ol class="carousel-indicators">
+	    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+	    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+	    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+	  </ol>
+
+	  <!-- Wrapper for slides -->
+	  <div class="carousel-inner" role="listbox">
+	    <div class="item active">
+	      <img id="imgslider" src="./assets/img/slider1.jpg">
+	    </div>
+	    <div class="item">
+	      <img id="imgslider" src="./assets/img/slider2.jpg">
+	    </div>
+			<div class="item">
+	      <img id="imgslider" src="./assets/img/slider3.jpg">
+	    </div>
+	  </div>
+	</div>
+	<!-- End Caroussel -->
+<div class="footer-shop">
+	<div class="container">
+		<div class="row">
+			Movado Watch .Co | Crafted by : Fu
+		</div>
+		<hr style="color: white">
+		<div class="row">
+			Greater Jakarta Indonesia | 021 000 000
+		</div>
+	</div>
+</div>
+
+
+</body>
+</html>
